@@ -12,7 +12,7 @@
 
     @Override
     public String toString(){
-        return "\nPoligono con " + numLados + " lados.\n";
+        return "\nNumero Lados = " + numLados + "\n";
     }
 
     public abstract double area(); // metodo abstracto para calcular el area del poligono
