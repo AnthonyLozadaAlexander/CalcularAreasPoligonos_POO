@@ -29,10 +29,18 @@ public class Main {
                 case 3:
                     System.exit(0);
             }
+
             System.out.println("\nDesea Agregar Otro Poligono? (S/N)");
             respuesta = input.next().charAt(0);
             System.out.println("\n");
 
         }while(respuesta == 'S' || respuesta == 'N');
     }
+
+    public static void llenarTraingulo(){
+
+        double lado1, lado2, lado3;
+
+    }
+
 }
