@@ -4,7 +4,7 @@
     private double lado2;
 
     public Rectangulo(double lado1, double lado2){
-        super(2); // que significa el numero 2 en el super? es el numero de lados del rectangulo, aunque no es un poligono regular, se considera que tiene 2 lados para efectos de esta clase.
+        super(2); // manda el numero de lados del rectangulo al constructor de la clase padre Poligono
         this.lado1 = lado1;
         this.lado2 = lado2;
     }
