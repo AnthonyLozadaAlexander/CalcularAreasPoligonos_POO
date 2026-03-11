@@ -27,11 +27,12 @@ public class Main {
                 case 2:
                     break;
                 case 3:
+                    System.out.println("Gracias Por Usar El Programa");
                     System.exit(0);
             }
 
             System.out.println("\nDesea Agregar Otro Poligono? (S/N)");
-            respuesta = input.next().charAt(0);
+            respuesta = input.next().charAt(0); // lee la respuesta del usuario y la convierte a un caracter, para luego compararla con 'S' o 'N' en el ciclo do-while. Si el usuario ingresa 'S', el ciclo se repetira y se le preguntara nuevamente por el tipo de poligono que desea agregar. Si el usuario ingresa 'N', el ciclo se terminara y se mostrara un mensaje de despedida.
             System.out.println("\n");
 
         }while(respuesta == 'S' || respuesta == 'N');
