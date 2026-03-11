@@ -23,6 +23,7 @@ public class Main {
 
             switch(opcion){
                 case 1:
+                    llenarTriangulo();
                     break;
                 case 2:
                     break;
@@ -38,7 +39,7 @@ public class Main {
         }while(respuesta == 'S' || respuesta == 'N');
     }
 
-    public static void llenarTraingulo(){
+    public static void llenarTriangulo(){
 
         double lado1, lado2, lado3;
 
@@ -52,6 +53,22 @@ public class Main {
         Triangulo triangulo = new Triangulo(lado1, lado2, lado3);
 
         Poligonos.add(triangulo); // agregar el objeto triangulo a la lista poligonos.
+
+    }
+
+    public static void llenarRectangulo(){
+
+        double lado1, lado2;
+
+        System.out.println("Ingrese El Lado 1 Del Rectangulo");
+        lado1 = input.nextDouble();
+        System.out.println("Ingrese El Lado 2 Del Rectangulo");
+        lado2 = input.nextDouble();
+
+        Rectangulo rectangulo = new Rectangulo(lado1, lado2);
+
+        Poligonos.add(rectangulo); // agregar el objeto rectangulo a la lista poligonos.
+
 
     }
 
