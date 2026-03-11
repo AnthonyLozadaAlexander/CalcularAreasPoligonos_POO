@@ -26,6 +26,7 @@ public class Main {
                     llenarTriangulo();
                     break;
                 case 2:
+                    llenarRectangulo();
                     break;
                 case 3:
                     System.out.println("Gracias Por Usar El Programa");
