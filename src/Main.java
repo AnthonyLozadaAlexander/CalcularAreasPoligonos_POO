@@ -6,7 +6,7 @@ public class Main {
     static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-
+        llenarPoligono();
     }
 
     public static void llenarPoligono(){
@@ -41,6 +41,15 @@ public class Main {
     public static void llenarTraingulo(){
 
         double lado1, lado2, lado3;
+
+        System.out.println("Ingrese El Lado 1 Del Triangulo");
+        lado1 = input.nextDouble();
+        System.out.println("Ingrese El Lado 2 Del Triangulo");
+        lado2 = input.nextDouble();
+        System.out.println("Ingrese El Lado 3 Del Triangulo");
+        lado3 = input.nextDouble();
+
+        Triangulo triangulo = new Triangulo(lado1, lado2, lado3);
 
     }
 
