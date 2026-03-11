@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-    static ArrayList<Poligono> poligonos = new ArrayList<Poligono>();
+    static ArrayList<Poligono> Poligonos = new ArrayList<Poligono>();
     static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -50,6 +50,8 @@ public class Main {
         lado3 = input.nextDouble();
 
         Triangulo triangulo = new Triangulo(lado1, lado2, lado3);
+
+        Poligonos.add(triangulo); // agregar el objeto triangulo a la lista poligonos.
 
     }
 
